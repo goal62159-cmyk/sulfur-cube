@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "updatetest",
+  "version": "${version}",
+  "name": "Sulfur Cube",
+  "description": "Sulfur Cube mob (Fabric port of the NeoForge mod).",
+  "authors": [],
+  "license": "All Rights Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.belgie.updatetest.UpdateTest"],
+    "client": ["com.belgie.updatetest.UpdateTestClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
